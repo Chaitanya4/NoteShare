@@ -1,0 +1,4 @@
+# NoteShare
+We built this application using react js, semantic UI, okta identity engine, MongoDB and node js and deployed it to Heroku.
+
+The web application login and sign up the users using Identity Engine Redirect Authentication. After successful login, the user idToken gets Stored in the local Storage. The self-service Sign On is enabled in the Identity Engine, so that users can self sign-up and sign-in. The user can see their profile details by visiting the Profile section. The users write their notes by visiting the NotesShare Page. The notes are stored in MongoDB Atlas using node js REST API. The users can search the notes by titles using the search functionality. The creator of the notes are find out using the current user details. The users can only delete the notes created by them. The users can see the notes of all other users, find out the which notes are created by whom and at what time.
